@@ -9,45 +9,23 @@ A scalable, observable, and modular RESTful API for managing a car sales platfor
 
 ---
 
-## Features
+## Features and Tools
 
-- **JWT-based authentication and authorization for securing protected routes**
+- **[JWT-based](https://github.com/golang-jwt/jwt) authentication and authorization for securing protected routes**
 - **Car sales management including creating, updating, deleting, and browsing listings**
-- **Clean architecture using Gin framework (router → handler → service → contracts → infra)**
-- **Input validation using validator for secure and strict endpoint validation**
-- **Environment and configuration management via viper with support for .env and YAML**
-- **PostgreSQL as the main relational database engine**
-- **PgAdmin as a visual tool for inspecting and managing the PostgreSQL database**
-- **GORM as the ORM layer for interacting with PostgreSQL using models and struct-based queries**
-- **Docker Compose for orchestrating all services like DB, Redis, Elasticsearch, Prometheus, and more**
-- **Redis caching to reduce database load and enhance performance for hot data**
-- **Prometheus for real-time metrics collection and monitoring**
-- **Grafana dashboards for visualizing performance and system metrics**
-- **Centralized logging pipeline using Elasticsearch, Filebeat, and Kibana**
-- **Structured logging using both zap and zerolog for performant, JSON-formatted logs**
-- **Auto-generated API documentation with Swagger UI for easy testing and development**
-
----
-
-## Used Tools:
-
-1. [Gin framework](https://github.com/gin-gonic/gin)
-2. [JWT authentication and authorization](https://github.com/golang-jwt/jwt)
-3. [Redis](https://github.com/redis/redis)
-4. [Elasticsearch](https://github.com/elastic/elasticsearch)
-5. [Beat](https://github.com/elastic/beats)
-6. [Kibana](https://github.com/elastic/kibana)
-7. [Postgresql](https://github.com/postgres/postgres)
-8. [PgAdmin](https://github.com/pgadmin-org/pgadmin4)
-9. [Prometheus](https://github.com/prometheus/prometheus)
-10. [Grafana](https://github.com/grafana/grafana)
-11. [Validator](https://github.com/go-playground/validator)
-12. [Viper](https://github.com/spf13/viper)
-13. [Zap](https://github.com/uber-go/zap)
-14. [Zerolog](https://github.com/rs/zerolog)
-15. [Gorm](https://github.com/go-gorm/gorm)
-16. [Swagger](https://github.com/swaggo/swag)
-17. [Docker Compose](https://github.com/docker/compose)
+- **Clean architecture using [Gin framework](https://github.com/gin-gonic/gin) (router → handler → service → contracts → infra)**
+- **Input validation using [validator](https://github.com/go-playground/validator) for secure and strict endpoint validation**
+- **Environment and configuration management via [viper](https://github.com/spf13/viper) with support for .env and YAML**
+- **[PostgreSQL](https://github.com/postgres/postgres) as the main relational database engine**
+- **[PgAdmin](https://github.com/pgadmin-org/pgadmin4) as a visual tool for inspecting and managing the [PostgreSQL](https://github.com/postgres/postgres) database**
+- **[GORM](https://github.com/go-gorm/gorm) as the ORM layer for interacting with [PostgreSQL](https://github.com/postgres/postgres) using models and struct-based queries**
+- **[Docker Compose](https://github.com/docker/compose) for orchestrating all services like DB, [Redis](https://github.com/redis/redis), [Elasticsearch](https://github.com/elastic/elasticsearch), [Prometheus](https://github.com/prometheus/prometheus), and more**
+- **[Redis](https://github.com/redis/redis) caching to reduce database load and enhance performance for hot data**
+- **[Prometheus](https://github.com/prometheus/prometheus) for real-time metrics collection and monitoring**
+- **[Grafana](https://github.com/grafana/grafana) dashboards for visualizing performance and system metrics**
+- **Centralized logging pipeline using [Elasticsearch](https://github.com/elastic/elasticsearch), [Filebeat](https://github.com/elastic/beats), and [Kibana](https://github.com/elastic/kibana)**
+- **Structured logging using both [zap](https://github.com/uber-go/zap) and [zerolog](https://github.com/rs/zerolog) for performant, JSON-formatted logs**
+- **Auto-generated API documentation with [Swagger UI](https://github.com/swaggo/swag) for easy testing and development**
 
 ---
 
