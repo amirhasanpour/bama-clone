@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/amirhasanpour/bama-clone-web-api/src/pkg/metrics"
+	"github.com/amirhasanpour/bama-clone/src/pkg/metrics"
 	"github.com/gin-gonic/gin"
 )
 

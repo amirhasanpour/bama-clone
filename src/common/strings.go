@@ -9,7 +9,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/amirhasanpour/bama-clone-web-api/src/config"
+	"github.com/amirhasanpour/bama-clone/src/config"
 )
 
 var (

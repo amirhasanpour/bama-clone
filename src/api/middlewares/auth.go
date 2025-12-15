@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/amirhasanpour/bama-clone-web-api/src/api/helper"
-	"github.com/amirhasanpour/bama-clone-web-api/src/config"
-	"github.com/amirhasanpour/bama-clone-web-api/src/constants"
-	"github.com/amirhasanpour/bama-clone-web-api/src/pkg/service_errors"
-	"github.com/amirhasanpour/bama-clone-web-api/src/services"
+	"github.com/amirhasanpour/bama-clone/src/api/helper"
+	"github.com/amirhasanpour/bama-clone/src/config"
+	"github.com/amirhasanpour/bama-clone/src/constants"
+	"github.com/amirhasanpour/bama-clone/src/pkg/service_errors"
+	"github.com/amirhasanpour/bama-clone/src/services"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt"
 )

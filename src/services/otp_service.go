@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/amirhasanpour/bama-clone-web-api/src/config"
-	"github.com/amirhasanpour/bama-clone-web-api/src/constants"
-	"github.com/amirhasanpour/bama-clone-web-api/src/data/cache"
-	"github.com/amirhasanpour/bama-clone-web-api/src/pkg/logging"
-	"github.com/amirhasanpour/bama-clone-web-api/src/pkg/service_errors"
+	"github.com/amirhasanpour/bama-clone/src/config"
+	"github.com/amirhasanpour/bama-clone/src/constants"
+	"github.com/amirhasanpour/bama-clone/src/data/cache"
+	"github.com/amirhasanpour/bama-clone/src/pkg/logging"
+	"github.com/amirhasanpour/bama-clone/src/pkg/service_errors"
 	"github.com/go-redis/redis/v7"
 )
 

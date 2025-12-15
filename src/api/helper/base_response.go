@@ -1,6 +1,6 @@
 package helper
 
-import validation "github.com/amirhasanpour/bama-clone-web-api/src/api/validations"
+import validation "github.com/amirhasanpour/bama-clone/src/api/validations"
 
 type BaseHttpResponse struct {
 	Result           any                           `json:"result"`

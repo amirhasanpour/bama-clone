@@ -1,6 +1,6 @@
 package migrations
 
-import "github.com/amirhasanpour/bama-clone-web-api/src/data/models"
+import "github.com/amirhasanpour/bama-clone/src/data/models"
 
 func getBodyProperties(cat int) *[]models.Property {
 	var props []models.Property = []models.Property{

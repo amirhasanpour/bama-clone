@@ -1,7 +1,7 @@
 package validation
 
 import (
-	"github.com/amirhasanpour/bama-clone-web-api/src/common"
+	"github.com/amirhasanpour/bama-clone/src/common"
 	"github.com/go-playground/validator/v10"
 )
 

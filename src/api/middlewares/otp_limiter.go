@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/amirhasanpour/bama-clone-web-api/src/api/helper"
-	"github.com/amirhasanpour/bama-clone-web-api/src/config"
-	"github.com/amirhasanpour/bama-clone-web-api/src/pkg/limiter"
+	"github.com/amirhasanpour/bama-clone/src/api/helper"
+	"github.com/amirhasanpour/bama-clone/src/config"
+	"github.com/amirhasanpour/bama-clone/src/pkg/limiter"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/time/rate"
 )

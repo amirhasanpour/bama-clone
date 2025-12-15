@@ -1,6 +1,6 @@
 package logging
 
-import "github.com/amirhasanpour/bama-clone-web-api/src/config"
+import "github.com/amirhasanpour/bama-clone/src/config"
 
 type Logger interface {
 	Init()

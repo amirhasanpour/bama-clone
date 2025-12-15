@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"github.com/amirhasanpour/bama-clone-web-api/src/api/handlers"
-	"github.com/amirhasanpour/bama-clone-web-api/src/config"
+	"github.com/amirhasanpour/bama-clone/src/api/handlers"
+	"github.com/amirhasanpour/bama-clone/src/config"
 	"github.com/gin-gonic/gin"
 )
 

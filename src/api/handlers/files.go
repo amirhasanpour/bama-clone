@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/amirhasanpour/bama-clone-web-api/src/api/dto"
-	"github.com/amirhasanpour/bama-clone-web-api/src/api/helper"
-	"github.com/amirhasanpour/bama-clone-web-api/src/config"
-	"github.com/amirhasanpour/bama-clone-web-api/src/pkg/logging"
-	"github.com/amirhasanpour/bama-clone-web-api/src/services"
+	"github.com/amirhasanpour/bama-clone/src/api/dto"
+	"github.com/amirhasanpour/bama-clone/src/api/helper"
+	"github.com/amirhasanpour/bama-clone/src/config"
+	"github.com/amirhasanpour/bama-clone/src/pkg/logging"
+	"github.com/amirhasanpour/bama-clone/src/services"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )
